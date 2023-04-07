@@ -6,39 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка сайту -->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a class="logo" href="./index.html">
+          <span class="web">Web</span> <span class="studio">Studio</span>
+        </a>
+        <ul class="site-nav">
+          <li><a class="link" href="">Studio</a></li>
+          <li>
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="nav-links">
+          <li>
+            <a class="mail-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="phone-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- Filters -->
-      <div>
+      <div class="filters">
         <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li>
+            <button class="filters-button" type="button">
+              <span class="filters-button-name">All</span>
+            </button>
+          </li>
+          <li>
+            <button class="filters-button" type="button">
+              <span class="filters-button-name">Web Site</span>
+            </button>
+          </li>
+          <li>
+            <button class="filters-button" type="button">
+              <span class="filters-button-name">App</span>
+            </button>
+          </li>
+          <li>
+            <button class="filters-button" type="button">
+              <span class="filters-button-name">Design</span>
+            </button>
+          </li>
+          <li>
+            <button class="filters-button" type="button">
+              <span class="filters-button-name">Marketing</span>
+            </button>
+          </li>
         </ul>
       </div>
 
       <!-- Examples -->
-      <section>
+      <section class="projects">
         <ul>
           <li>
             <img
@@ -47,8 +83,8 @@
             Interface Concept"
               width="360"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="project-title">Banking App Interface Concept</h3>
+            <p class="project-desc">App</p>
           </li>
           <li>
             <img
@@ -56,8 +92,8 @@
               alt="Cashless Payment"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="project-title">Cashless Payment</h3>
+            <p class="project-desc">Marketing</p>
           </li>
           <li>
             <img
@@ -65,8 +101,8 @@
               alt="Meditation App"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="project-title">Meditation App</h3>
+            <p class="project-desc">App</p>
           </li>
           <li>
             <img
@@ -74,8 +110,8 @@
               alt="Taxi Service"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="project-title">Taxi Service</h3>
+            <p class="project-desc">Marketing</p>
           </li>
           <li>
             <img
@@ -84,8 +120,8 @@
             illustrations"
               width="360"
             />
-            <h3>Screen illustrations</h3>
-            <p>Design</p>
+            <h3 class="project-title">Screen illustrations</h3>
+            <p class="project-desc">Design</p>
           </li>
           <li>
             <img
@@ -93,8 +129,8 @@
               alt="Online Courses"
               width="360"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="project-title">Online Courses</h3>
+            <p class="project-desc">Marketing</p>
           </li>
           <li>
             <img
@@ -103,8 +139,8 @@
             Stories Concept"
               width="360"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="project-title">Instagram Stories Concept</h3>
+            <p class="project-desc">Design</p>
           </li>
           <li>
             <img
@@ -112,8 +148,8 @@
               alt="Organic Food"
               width="360"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="project-title">Organic Food</h3>
+            <p class="project-desc">Web Site</p>
           </li>
           <li>
             <img
@@ -121,16 +157,18 @@
               alt="Fresh Coffee"
               width="360"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="project-title">Fresh Coffee</h3>
+            <p class="project-desc">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Футер -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo" href="./index.html">
+        <span class="web">Web</span> <span class="studio-footer">Studio</span>
+      </a>
+      <p class="footer-desc">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
