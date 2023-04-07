@@ -63,8 +63,7 @@ body {
   font-style: normal;
 }
 
-.address-mail,
-.address-phone {
+.address-contact {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -72,14 +71,11 @@ body {
   color: var(--text-color);
   text-decoration: none;
 }
-.mail-link:hover,
-.mail-link:focus {
+.address-contact:hover,
+.address-contact:focus {
   color: var(--button-active-color);
 }
-.phone-link:hover,
-.phone-link:focus {
-  color: var(--button-active-color);
-}
+
 /* Hero */
 .hero {
   background: var(--main-color);
