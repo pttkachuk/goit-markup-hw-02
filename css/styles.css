@@ -1,0 +1,231 @@
+:root {
+  --main-color: #2e2f42;
+  --brand-color: #4d5ae5;
+  --white-color: #ffffff;
+  --text-color: #434455;
+  --cloud-color: #f4f4fd;
+  --button-active-color: #404bbf;
+  --accent-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  position: relative;
+  width: 1440px;
+  height: 2592px;
+  letter-spacing: 0.02em;
+  background: var(--white-color);
+}
+/* Header */
+.logo {
+  text-decoration: none;
+}
+.web {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--brand-color);
+  align-items: center;
+  text-transform: uppercase;
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--main-color);
+  align-items: center;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+}
+.site-nav > li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+  list-style-type: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--button-active-color);
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.mail-link,
+.phone-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--button-active-color);
+}
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--button-active-color);
+}
+/* Hero */
+.hero {
+  background: var(--main-color);
+  text-align: center;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--white-color);
+}
+.hero-button {
+  background: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-button-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+}
+/* Advantages */
+.advantages > ul {
+  list-style-type: none;
+}
+.advantages-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.advantages-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+/* Examples */
+.examples > ul {
+  list-style-type: none;
+}
+.examples-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* Team */
+.team {
+  background: var(--cloud-color);
+}
+.team > ul {
+  list-style-type: none;
+}
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
+}
+.teammates-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.teammates-position {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+/* Footer */
+.footer {
+  background: var(--main-color);
+}
+.studio-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud-color);
+}
+.footer-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud-color);
+}
+/* Portfolio */
+
+/* Filters */
+.filters > ul {
+  list-style-type: none;
+}
+.filters-button {
+  background: var(--cloud-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  background: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filters-button-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--brand-color);
+}
+.filters-button-name:hover,
+.filters-button-name:focus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+/* Examples */
+.projects > ul {
+  list-style-type: none;
+}
+.projects-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.project-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
